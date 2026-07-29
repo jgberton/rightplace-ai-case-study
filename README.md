@@ -1,143 +1,141 @@
-# Right Place AI
+<p align="center">
+  <img src="./assets/hero.png" alt="RightPlace AI" width="100%">
+</p>
+
+<h1 align="center">RightPlace AI</h1>
 
 <p align="center">
-  <img src="./assets/cover.png" alt="Right Place AI Cover" width="100%">
+<strong>Career Intelligence Platform</strong><br>
+Understanding people before matching opportunities.
 </p>
 
 <p align="center">
 
-**Career Intelligence Platform powered by Conversational AI**
+![Status](https://img.shields.io/badge/Status-In%20Development-2563EB)
+![AI](https://img.shields.io/badge/AI-Conversational%20Intelligence-7C3AED)
+![Architecture](https://img.shields.io/badge/Architecture-Cloud%20Native-0891B2)
+![Privacy](https://img.shields.io/badge/Privacy-Privacy%20by%20Design-16A34A)
 
-*Understanding people beyond their resumes.*
+</p>
+
+<p align="center">
+
+*A conversation-first approach to hiring, designed to understand people beyond resumes.*
 
 </p>
 
 ---
 
-## The problem
+# The Future of Hiring Starts Here
 
-Artificial Intelligence has transformed recruitment over the last few years.
+Recruitment has become faster than ever.
 
-Today, thousands of resumes are processed every minute by Applicant Tracking Systems (ATS), allowing companies to filter candidates in seconds based on keywords, previous job titles, degrees, certifications and predefined requirements.
+Modern Applicant Tracking Systems (ATS) can process thousands of resumes in minutes, automatically filtering candidates based on keywords, previous job titles, certifications and predefined requirements.
 
-While this automation dramatically reduces manual work, it also amplifies one of the oldest problems in recruitment:
+Efficiency improved.
 
-> **People are still evaluated primarily by what fits on one or two pages.**
+Understanding did not.
 
-Traditional resumes are static.
+RightPlace AI explores a different approach.
 
-They rarely explain:
+Instead of asking **"Does this resume match the job?"**, it starts by asking:
 
-- why someone changed careers;
-- how skills were developed outside formal jobs;
-- hidden transferable competencies;
-- learning capacity;
-- motivations;
-- career goals;
-- professional context.
+> **"Who is this professional?"**
 
-As a result, many qualified professionals are eliminated before having any meaningful opportunity to demonstrate who they are.
+Every conversation adds context.
 
-The process became faster.
+Every interaction enriches a professional profile.
 
-Not necessarily better.
+Every opportunity begins with understanding before evaluation.
 
 ---
 
-## The idea
+# The Problem
 
-Right Place AI was created from a simple question:
+> **Modern hiring became incredibly efficient.  
+> Unfortunately, it also became increasingly superficial.**
 
-> **What if Artificial Intelligence tried to understand people before trying to filter them?**
+<p align="center">
+<img src="./assets/ats-comparison.png" width="100%">
+</p>
 
-Instead of using AI only to scan resumes for keywords, Right Place AI introduces a different approach.
+Traditional recruitment platforms were designed around documents.
 
-The platform starts with a conversation.
+Candidates spend hours polishing resumes, while companies rely on increasingly sophisticated systems to process them automatically.
 
-An AI mentor called **North** gradually learns about each professional through adaptive conversations, identifying experiences, achievements, interests, behavioral patterns, technical skills and future aspirations.
+Although this workflow saves time, it often overlooks what cannot be summarized in one or two pages.
 
-This information is combined with the candidate's resume when available, creating a much richer representation than a traditional CV.
+Things like:
 
-The result is what we call a **Living Professional Profile**.
+- career transitions
+- personal projects
+- freelance work
+- volunteer experience
+- learning outside formal education
+- transferable skills
+- growth potential
+- motivations and aspirations
 
-Unlike a resume, the profile evolves over time as the person's career evolves.
+As hiring becomes more automated, professionals risk being represented by keywords instead of their complete story.
 
----
-
-## Vision
-
-Right Place AI is not intended to replace recruiters.
-
-It is designed to provide recruiters with better information.
-
-Instead of receiving only documents filled with keywords, companies receive structured professional profiles enriched with context, evidence and conversational insights.
-
-Likewise, candidates are no longer represented only by previous job titles.
-
-They are represented by their trajectory, potential and objectives.
+RightPlace AI challenges this assumption.
 
 ---
 
-## Core principles
+# A Better Approach
 
-The product was designed around five principles.
+> **Understanding should come before matching.**
 
-### 1. People are more than resumes
+RightPlace AI replaces static forms with meaningful conversations.
 
-A resume is a snapshot.
+Instead of asking candidates to continuously rewrite their professional story for every opportunity, the platform gradually builds a **Living Professional Profile** through conversational AI.
 
-A professional profile should evolve continuously.
+Rather than extracting isolated keywords, the platform identifies context.
 
----
+Rather than ranking resumes, it understands trajectories.
 
-### 2. Conversations reveal more than forms
+Rather than focusing exclusively on previous positions, it considers potential, adaptability and professional goals.
 
-Static forms collect answers.
+This creates a richer foundation for better hiring decisions on both sides of the process.
 
-Good conversations reveal context.
-
----
-
-### 3. AI should understand before judging
-
-The objective is not to eliminate candidates faster.
-
-The objective is to understand them better.
+The result is a platform where Artificial Intelligence supports human decisions instead of replacing them.
 
 ---
 
-### 4. Context matters
+## Designed Around Four Principles
 
-Career transitions.
+### 👤 People are more than resumes
 
-Volunteer work.
+A resume is only a snapshot.
 
-Personal projects.
-
-Freelance experience.
-
-Learning outside traditional education.
-
-All of these contribute to understanding someone's professional potential.
+Professional careers constantly evolve, and the way we represent them should evolve as well.
 
 ---
 
-### 5. Technology should reduce bias, not reinforce it
+### 💬 Conversations reveal context
 
-Automation should improve decision making.
+Forms collect answers.
 
-Not simply accelerate existing limitations.
+Conversations reveal motivations, experiences, challenges and aspirations that structured fields rarely capture.
 
 ---
 
-## Why "Right Place"?
+### 🤖 AI should assist, not decide
 
-Finding the right professional is important.
+Artificial Intelligence is used to organize information, identify patterns and enrich professional profiles.
 
-Finding the right place for that professional is equally important.
+Final hiring decisions always belong to people.
 
-The platform was designed to improve both sides of this relationship.
+---
 
-Candidates discover opportunities that better match their profile.
+### 🔒 Trust starts with privacy
 
-Companies discover professionals they might never have considered using traditional screening methods.
+Professional data deserves the same level of protection as financial or medical information.
+
+Privacy, transparency and user control are fundamental parts of the platform—not features added later.
+
+---
+
+> **Next → Meet North**
+
+The next section introduces North, the conversational AI designed to understand professionals before connecting them with opportunities.
