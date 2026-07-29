@@ -11,10 +11,10 @@ Understanding people before matching opportunities.
 
 <p align="center">
 
-![Status](https://img.shields.io/badge/Status-In%20Development-2563EB)
-![AI](https://img.shields.io/badge/AI-Conversational%20Intelligence-7C3AED)
-![Architecture](https://img.shields.io/badge/Architecture-Cloud%20Native-0891B2)
-![Privacy](https://img.shields.io/badge/Privacy-Privacy%20by%20Design-16A34A)
+<img src="https://img.shields.io/badge/Status-In%20Development-2563EB?style=for-the-badge">
+<img src="https://img.shields.io/badge/AI-Conversational%20Intelligence-7C3AED?style=for-the-badge">
+<img src="https://img.shields.io/badge/Architecture-Cloud%20Native-0891B2?style=for-the-badge">
+<img src="https://img.shields.io/badge/Privacy-Privacy%20by%20Design-16A34A?style=for-the-badge">
 
 </p>
 
@@ -50,7 +50,7 @@ Every opportunity begins with understanding before evaluation.
 
 ---
 
-# The Problem
+## The Problem
 
 > **Modern hiring became incredibly efficient.  
 > Unfortunately, it also became increasingly superficial.**
@@ -78,7 +78,7 @@ RightPlace AI challenges this assumption.
 
 ---
 
-# A Better Approach
+## A Better Approach
 
 > **Understanding should come before matching.**
 
@@ -126,7 +126,7 @@ Understanding always comes before matching.
 
 ---
 
-### 🤖 AI as an Assistant
+### 🤖 Designed to Understand
 
 Artificial Intelligence organizes information.
 
@@ -141,7 +141,7 @@ Trust isn't a feature.
 It's part of the architecture.
 ---
 
-# Meet North
+## Meet North
 
 > **Every meaningful career starts with a conversation.**
 
@@ -183,7 +183,7 @@ It's a richer understanding of who that person is and where they want to go.
 
 ---
 
-## More Than an AI Assistant
+## Why North Exists
 
 North was intentionally designed as a **career companion**, not an automated evaluator.
 
@@ -195,9 +195,13 @@ This conversational approach makes every interaction valuable—not only for a s
 
 ---
 
-# Living Profiles
+## Living Profiles
 
 > **Careers evolve. Professional profiles should evolve too.**
+
+Careers don't stand still.
+
+Neither should professional profiles.
 
 <p align="center">
   <img src="./assets/living-profile.png" width="100%">
@@ -239,7 +243,7 @@ Together, these elements create a richer representation of professional potentia
 
 ---
 
-# Candidate Journey
+## Candidate Journey
 
 > **One conversation. Endless opportunities.**
 
@@ -265,7 +269,7 @@ The profile becomes more complete with every interaction.
 
 ---
 
-# Company Journey
+## Company Journey
 
 > **Better context creates better hiring decisions.**
 
@@ -293,7 +297,7 @@ The goal is to improve the quality of hiring decisions by providing richer profe
 
 ---
 
-# Privacy by Design
+## Privacy by Design
 
 > **Trust isn't a feature. It's part of the architecture.**
 
@@ -307,7 +311,7 @@ Professional experiences, ambitions, conversations and achievements deserve the 
 
 RightPlace AI was designed around a simple principle:
 
-> **Candidates own their professional story.**
+> ## **Candidates own their professional story.**
 
 Every conversation belongs to the candidate.
 
@@ -340,7 +344,7 @@ Trust is built long before the first interview begins.
 
 ---
 
-# Platform Overview
+## Platform Overview
 
 > **One platform. Two connected journeys.**
 
@@ -382,12 +386,12 @@ Future modules can expand the ecosystem without changing its core philosophy.
 
 ---
 
-# Architecture
+## Architecture
 
 > **Built to scale. Designed to evolve.**
 
 <p align="center">
-  <img src="./assets/architecture.png" width="100%">
+  <img src="./assets/architecture .png" width="100%">
 </p>
 
 Behind every conversation is a cloud-native architecture designed around scalability, modularity and continuous evolution.
@@ -434,7 +438,7 @@ Every architectural decision supports future growth instead of short-term implem
 
 ---
 
-# Engineering Principles & Platform
+## Engineering Principles & Platform
 
 > **Technology should serve the product—not the other way around.**
 
@@ -457,7 +461,7 @@ The product principles remain the same.
 
 ---
 
-# Roadmap
+## Roadmap
 
 > **This is only the beginning.**
 
@@ -485,7 +489,7 @@ Help people find not only **their next job**, but **the right place to grow.**
 
 ---
 
-# Key Features
+## Key Features
 
 RightPlace AI combines conversational intelligence, cloud-native architecture and product thinking into a single platform.
 
@@ -506,7 +510,7 @@ The platform was designed to evolve continuously, allowing new capabilities to b
 
 ---
 
-# Project Structure
+## Project Structure
 
 The project follows a modular architecture to keep business rules, user experience and AI capabilities independent.
 
@@ -528,7 +532,7 @@ This organization allows the platform to scale while keeping each module focused
 
 ---
 
-# Behind the Product
+## Behind the Product
 
 > **Every product starts with a problem worth solving.**
 
@@ -596,7 +600,7 @@ Finally, great software is rarely defined by the number of features it offers, b
 
 ---
 
-# Documentation
+## Documentation
 
 Additional documentation is available inside the `/docs` directory.
 
@@ -609,7 +613,7 @@ Additional documentation is available inside the `/docs` directory.
 
 ---
 
-# Getting Started
+## Getting Started
 
 Clone the repository.
 
@@ -633,7 +637,7 @@ Configure your Firebase project and environment variables before running the app
 
 ---
 
-# Contributing
+## Contributing
 
 Contributions, discussions and product feedback are always welcome.
 
@@ -641,7 +645,7 @@ If you'd like to share ideas, report issues or collaborate, feel free to open an
 
 ---
 
-# License
+## License
 
 This project is licensed under the MIT License.
 
