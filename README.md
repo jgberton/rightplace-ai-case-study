@@ -293,6 +293,198 @@ The goal is to improve the quality of hiring decisions by providing richer profe
 
 ---
 
-> **Next → Privacy by Design**
+# Privacy by Design
 
-Every professional profile deserves transparency, security and complete user control.
+> **Trust isn't a feature. It's part of the architecture.**
+
+<p align="center">
+  <img src="./assets/privacy-flow.png" width="100%">
+</p>
+
+Career data is deeply personal.
+
+Professional experiences, ambitions, conversations and achievements deserve the same level of care as any other sensitive information.
+
+RightPlace AI was designed around a simple principle:
+
+> **Candidates own their professional story.**
+
+Every conversation belongs to the candidate.
+
+Every profile is created with transparency.
+
+Every piece of information shared with a company happens intentionally.
+
+Rather than exposing an entire professional history, candidates decide when and how their profile is shared throughout the hiring process.
+
+Privacy isn't an afterthought.
+
+It's part of every product decision.
+
+---
+
+## Designed for Trust
+
+The platform follows a privacy-first approach throughout the entire user journey.
+
+Core principles include:
+
+- User-controlled professional profiles
+- Explicit consent before profile sharing
+- Secure authentication
+- Cloud-native data protection
+- Transparent AI interactions
+- Privacy by Design architecture
+
+Trust is built long before the first interview begins.
+
+---
+
+# Platform Overview
+
+> **One platform. Two connected journeys.**
+
+<p align="center">
+  <img src="./assets/banner.png" width="100%">
+</p>
+
+RightPlace AI connects professionals and companies through a shared understanding instead of isolated documents.
+
+Although candidates and recruiters experience different interfaces, both interact with the same intelligent platform.
+
+Candidates build evolving professional identities.
+
+Companies discover richer professional context.
+
+North connects both experiences through conversation, structured knowledge and continuously evolving profiles.
+
+Instead of maintaining disconnected hiring workflows, the platform creates a single source of professional understanding.
+
+---
+
+## A Platform Designed to Evolve
+
+RightPlace AI was intentionally designed as a modular platform.
+
+Every major capability can evolve independently while contributing to the same professional ecosystem.
+
+Current platform modules include:
+
+- Conversational AI
+- Living Profiles
+- Candidate Experience
+- Recruiter Experience
+- Intelligent Matching
+- Profile Sharing
+- Career Insights
+
+Future modules can expand the ecosystem without changing its core philosophy.
+
+---
+
+# Architecture
+
+> **Built to scale. Designed to evolve.**
+
+<p align="center">
+  <img src="./assets/architecture.png" width="100%">
+</p>
+
+Behind every conversation is a cloud-native architecture designed around scalability, modularity and continuous evolution.
+
+Instead of concentrating responsibilities in a single application layer, the platform separates concerns across independent services that communicate securely.
+
+This architecture allows new capabilities to be introduced without affecting the overall user experience.
+
+As North evolves, the platform evolves with it.
+
+---
+
+## Engineering Goals
+
+The architecture was designed around five engineering principles.
+
+### Modular by Design
+
+Independent components simplify maintenance and future expansion.
+
+---
+
+### Cloud Native
+
+Infrastructure scales according to demand without unnecessary operational complexity.
+
+---
+
+### AI-First Integration
+
+Artificial Intelligence is treated as a platform capability rather than an isolated feature.
+
+---
+
+### Security Everywhere
+
+Authentication, authorization and data protection are integrated throughout the platform.
+
+---
+
+### Continuous Evolution
+
+Every architectural decision supports future growth instead of short-term implementation.
+
+---
+
+# Engineering Principles & Platform
+
+> **Technology should serve the product—not the other way around.**
+
+Rather than selecting technologies first and designing the product afterwards, RightPlace AI was built around product decisions that naturally shaped its technical architecture.
+
+The platform combines modern cloud technologies, conversational AI and modular engineering practices to support continuous evolution.
+
+| Area | Purpose |
+|------|---------|
+| 🎨 Frontend | Responsive, component-based user experience |
+| ☁️ Backend | Authentication, business logic and secure APIs |
+| 🤖 AI Layer | Conversational intelligence and semantic understanding |
+| 🗄️ Data Layer | Living Profiles, conversations and structured knowledge |
+| 🔐 Security | Authentication, authorization and privacy controls |
+| 🚀 Infrastructure | Cloud-native deployment and scalable services |
+
+Technology choices may evolve over time.
+
+The product principles remain the same.
+
+---
+
+# Roadmap
+
+> **This is only the beginning.**
+
+<p align="center">
+  <img src="./assets/roadmap.png" width="100%">
+</p>
+
+RightPlace AI was designed as an evolving platform rather than a finished product.
+
+The current version establishes the foundation for a broader Career Intelligence ecosystem.
+
+Future directions include:
+
+- Richer conversational experiences with North
+- Continuous evolution of Living Profiles
+- Intelligent opportunity recommendations
+- Recruiter collaboration features
+- Explainable matching insights
+- Career development recommendations
+- Analytics for candidates and companies
+
+The long-term vision remains unchanged.
+
+Help people find not only **their next job**, but **the right place to grow.**
+
+---
+
+> **Next → Behind the Product**
+
+Every architectural decision started with a product decision.
