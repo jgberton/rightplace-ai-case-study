@@ -485,6 +485,174 @@ Help people find not only **their next job**, but **the right place to grow.**
 
 ---
 
-> **Next → Behind the Product**
+# Key Features
 
-Every architectural decision started with a product decision.
+RightPlace AI combines conversational intelligence, cloud-native architecture and product thinking into a single platform.
+
+Current capabilities include:
+
+- 💬 AI-powered career conversations
+- 👤 Living Professional Profiles
+- 🎯 Candidate-centered experience
+- 🏢 Recruiter workspace
+- 📄 Resume generation from conversations
+- 🧠 Semantic profile enrichment
+- 🔒 Privacy by Design
+- ☁️ Cloud-native architecture
+- 📱 Responsive web application
+- 🚀 Modular backend services
+
+The platform was designed to evolve continuously, allowing new capabilities to be added without changing its core philosophy.
+
+---
+
+# Project Structure
+
+The project follows a modular architecture to keep business rules, user experience and AI capabilities independent.
+
+```text
+rightplace-ai/
+│
+├── app/                # Frontend application
+├── components/         # Shared UI components
+├── hooks/              # Custom React hooks
+├── services/           # Business services
+├── functions/          # Cloud Functions
+├── prompts/            # North prompts
+├── assets/             # Images and static files
+├── docs/               # Product documentation
+└── README.md
+```
+
+This organization allows the platform to scale while keeping each module focused on a single responsibility.
+
+---
+
+# Behind the Product
+
+> **Every product starts with a problem worth solving.**
+
+RightPlace AI was born from a simple observation.
+
+Recruitment platforms have become increasingly efficient at processing resumes, yet they still struggle to understand people.
+
+Throughout the product discovery process, one question guided every decision:
+
+> **What if hiring started with understanding instead of filtering?**
+
+That question shaped every aspect of the platform.
+
+North.
+
+Living Profiles.
+
+Conversational AI.
+
+Privacy.
+
+Architecture.
+
+Each feature exists to support the same vision rather than adding isolated functionality.
+
+Instead of building "another AI product", the goal became designing an experience capable of representing professionals more completely.
+
+---
+
+## What This Project Explores
+
+RightPlace AI is more than a software application.
+
+It is also an exploration of modern Product Engineering.
+
+Topics explored throughout the project include:
+
+- Product Discovery
+- UX Design
+- Conversational AI
+- Prompt Engineering
+- Cloud Architecture
+- Human-Centered Design
+- Privacy by Design
+- Product Strategy
+- Scalable System Design
+
+The repository documents not only the implementation, but also the thinking behind each major decision.
+
+---
+
+## Lessons Learned
+
+Building RightPlace AI reinforced several important ideas.
+
+Technology alone rarely creates better products.
+
+Understanding users does.
+
+Artificial Intelligence becomes significantly more valuable when it complements human decision-making instead of replacing it.
+
+Product decisions should guide technical decisions—not the opposite.
+
+Finally, great software is rarely defined by the number of features it offers, but by the clarity of the problem it solves.
+
+---
+
+# Documentation
+
+Additional documentation is available inside the `/docs` directory.
+
+| Document | Description |
+|----------|-------------|
+| PRODUCT_CASE_STUDY.md | Product vision, discovery process and design decisions |
+| ARCHITECTURE.md | Technical architecture overview |
+| NORTH.md *(coming soon)* | North's principles, personality and conversational design |
+| ROADMAP.md *(coming soon)* | Future product direction |
+
+---
+
+# Getting Started
+
+Clone the repository.
+
+```bash
+git clone https://github.com/jgberton/RightPlaceAi.git
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start the development server.
+
+```bash
+npm run dev
+```
+
+Configure your Firebase project and environment variables before running the application locally.
+
+---
+
+# Contributing
+
+Contributions, discussions and product feedback are always welcome.
+
+If you'd like to share ideas, report issues or collaborate, feel free to open an Issue or start a Discussion.
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+
+### Understanding people before matching opportunities.
+
+Built with curiosity, product thinking and a passion for creating more human technology.
+
+⭐ If this project inspires you, consider giving it a star.
+
+</p>
