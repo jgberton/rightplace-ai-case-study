@@ -1,31 +1,16 @@
-<p align="center">
-  <img src="./assets/hero.png" alt="RightPlace AI" width="100%">
-</p>
-
 <h1 align="center">RightPlace AI</h1>
 
 <p align="center">
-
-Career Intelligence Platform designed to understand people before matching them with opportunities.
-
+<strong>Career Intelligence Platform</strong><br>
+Designing a conversation-first approach to hiring.
 </p>
 
 <p align="center">
-
-⭐ Product Engineering Case Study
-
+⭐ Product Engineering Case Study • 🧠 Conversational AI • 👤 Living Profiles • ☁️ Cloud Native • 🔒 Privacy by Design
 </p>
 
 <p align="center">
-
-🧠 Conversational AI • ☁️ Cloud Native • 🔒 Privacy by Design • 👤 Living Profiles
-
-</p>
-
-<p align="center">
-
-*A conversation-first approach to hiring, designed to understand people beyond resumes.*
-
+<em>Understanding people before matching opportunities.</em>
 </p>
 
 > [!TIP]
@@ -34,15 +19,35 @@ Career Intelligence Platform designed to understand people before matching them 
 
 ---
 
-# The Future of Hiring Starts Here
+<table align="center">
+<tr>
+<td width="45%" valign="top">
 
-| Traditional Hiring | RightPlace AI |
-|--------------------|---------------|
-| Resume-first | Conversation-first |
-| Keyword matching | Context understanding |
-| Static documents | Living Profiles |
-| One application | Continuous evolution |
-| Past experience | Future potential |
+### Traditional Hiring
+
+- 📄 Resume-first
+- 🔍 Keyword matching
+- 📑 Static documents
+- 🔁 One application
+- 🕰️ Past experience
+
+</td>
+
+<td width="10%"></td>
+
+<td width="45%" valign="top">
+
+### RightPlace AI
+
+- 💬 Conversation-first
+- 🧠 Context understanding
+- 👤 Living Profiles
+- ♾️ Continuous evolution
+- 🚀 Future potential
+
+</td>
+</tr>
+</table>
 
 ---
 
