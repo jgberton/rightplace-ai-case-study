@@ -83,6 +83,11 @@ RightPlace AI challenges this assumption.
 > **Understanding should come before matching.**
 
 <p align="center">
+  <img src="./assets/ats-comparison.png" width="100%">
+</p>
+
+
+<p align="center">
   <em>
   Traditional recruitment evaluates resumes.
   RightPlace AI understands people.
