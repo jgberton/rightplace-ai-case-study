@@ -28,6 +28,10 @@ Career Intelligence Platform designed to understand people before matching them 
 
 </p>
 
+> [!TIP]
+>
+> This repository documents the complete product journey behind RightPlace AI — from discovery and UX decisions to conversational AI, cloud architecture and engineering principles.
+
 ---
 
 # The Future of Hiring Starts Here
@@ -140,19 +144,13 @@ Instead, North has a much simpler mission:
 
 Every conversation is an opportunity to discover experiences that rarely appear on a resume.
 
-Career transitions.
-
-Personal projects.
-
-Challenges.
-
-Achievements.
-
-Motivations.
-
-Learning experiences.
-
-Professional aspirations.
+| Valuable information often lost | Why it matters |
+|:-------------------------------:|:--------------:|
+| 🚀 Career transitions | Reveal adaptability and growth |
+| 💡 Personal projects | Demonstrate initiative |
+| 📚 Self-learning | Shows continuous development |
+| ❤️ Motivation | Explains career decisions |
+| 🌱 Growth potential | Indicates future performance |
 
 Rather than asking candidates to complete another long form, North guides them through a natural conversation, gradually transforming isolated information into meaningful professional context.
 
@@ -176,12 +174,6 @@ This conversational approach makes every interaction valuable—not only for a s
 
 ## Living Profiles
 
-> **Careers evolve. Professional profiles should evolve too.**
-
-Careers don't stand still.
-
-Neither should professional profiles.
-
 <p align="center">
   <img src="./assets/living-profile.png" width="100%">
 </p>
@@ -193,6 +185,11 @@ Neither should professional profiles.
 | Updated manually | Updated through conversations |
 | Application focused | Career focused |
 
+> **Careers evolve. Professional profiles should evolve too.**
+
+Careers don't stand still.
+
+Neither should professional profiles.
 ---
 
 ## What Makes a Living Profile Different?
@@ -229,24 +226,13 @@ Instead of creating a new profile for every application, professionals build a s
 
 The journey follows a natural progression:
 
-👤 Create Account
-
-↓
-
-💬 Meet North
-
-↓
-
-🧠 Build Living Profile
-
-↓
-
-📈 Grow Continuously
-
-↓
-
-🎯 Apply Anywhere
-
+| Step | Experience |
+|:---:|:---------------------------|
+| 👤 | Create an account |
+| 💬 | Meet North |
+| 🧠 | Build your Living Profile |
+| 📈 | Keep it evolving |
+| 🎯 | Apply with confidence |
 Each conversation strengthens future opportunities.
 
 The profile becomes more complete with every interaction.
@@ -269,24 +255,13 @@ Instead of relying exclusively on keyword matching, recruiters gain access to st
 
 This allows hiring teams to understand not only what candidates have done, but also:
 
-📝 Create Position
-
-↓
-
-🎯 Define Ideal Profile
-
-↓
-
-🤖 North understands candidates
-
-↓
-
-📊 Review Living Profiles
-
-↓
-
-🤝 Hire with more context
-
+| Step | Company Experience |
+|:---:|:---------------------------|
+| 📝 | Create a position |
+| 🎯 | Describe the ideal profile |
+| 🤖 | North enriches candidates |
+| 📊 | Review Living Profiles |
+| 🤝 | Hire with better context |
 The goal isn't to automate hiring.
 
 The goal is to improve the quality of hiring decisions by providing richer professional context.
@@ -305,13 +280,13 @@ Career data is deeply personal.
 
 Professional experiences, ambitions, conversations and achievements deserve the same level of care as any other sensitive information.
 
-> [!IMPORTANT]
->
-> Candidates always control how their professional profile is shared.
-
 RightPlace AI was designed around a simple principle:
 
-> ## **Candidates own their professional story.**
+> [!IMPORTANT]
+>
+> ## Candidates always own their professional story.
+>
+> Profiles are only shared with explicit user consent.
 
 Every conversation belongs to the candidate.
 
@@ -354,16 +329,13 @@ Trust is built long before the first interview begins.
 
 RightPlace AI connects professionals and companies through a shared understanding instead of isolated documents.
 
-Although candidates and recruiters experience different interfaces, both interact with the same intelligent platform.
-
-Candidates build evolving professional identities.
-
-Companies discover richer professional context.
-
-North connects both experiences through conversation, structured knowledge and continuously evolving profiles.
-
-Instead of maintaining disconnected hiring workflows, the platform creates a single source of professional understanding.
-
+| Platform | Purpose |
+|:---------:|:-----------------------------|
+| 🤖 North | Conversational Intelligence |
+| 👤 Living Profiles | Dynamic identity |
+| 🏢 Recruiter Workspace | Hiring workflow |
+| 🔎 Smart Matching | Better recommendations |
+| 🔒 Privacy Layer | User control |
 ---
 
 ## A Platform Designed to Evolve
@@ -424,14 +396,14 @@ Rather than selecting technologies first and designing the product afterwards, R
 
 The platform combines modern cloud technologies, conversational AI and modular engineering practices to support continuous evolution.
 
-| Area | Purpose |
-|------|---------|
-| 🎨 Frontend | Responsive, component-based user experience |
-| ☁️ Backend | Authentication, business logic and secure APIs |
-| 🤖 AI Layer | Conversational intelligence and semantic understanding |
-| 🗄️ Data Layer | Living Profiles, conversations and structured knowledge |
-| 🔐 Security | Authentication, authorization and privacy controls |
-| 🚀 Infrastructure | Cloud-native deployment and scalable services |
+| Layer | Responsibility |
+|:------:|:-------------------------------|
+| 🎨 Experience | Responsive interface |
+| 🤖 Intelligence | North AI |
+| ☁️ Backend | Business rules |
+| 🗄️ Data | Living Profiles |
+| 🔒 Security | Privacy by Design |
+| 🚀 Infrastructure | Cloud Native |
 
 Technology choices may evolve over time.
 
@@ -453,13 +425,12 @@ The current version establishes the foundation for a broader Career Intelligence
 
 Future directions include:
 
-- Richer conversational experiences with North
-- Continuous evolution of Living Profiles
-- Intelligent opportunity recommendations
-- Recruiter collaboration features
-- Explainable matching insights
-- Career development recommendations
-- Analytics for candidates and companies
+| Phase | Focus |
+|:------:|:-------------------------------|
+| 🚀 Phase 1 | Core Platform |
+| 🤖 Phase 2 | Smarter North |
+| 👤 Phase 3 | Rich Living Profiles |
+| 📊 Phase 4 | Career Intelligence Ecosystem |
 
 The long-term vision remains unchanged.
 
@@ -473,12 +444,11 @@ RightPlace AI combines conversational intelligence, cloud-native architecture an
 
 Current capabilities include:
 
-| Candidate Experience | Recruiter Experience |
-|----------------------|----------------------|
-| 💬 North | 🎯 Smart Matching |
-| 👤 Living Profile | 📊 Rich Candidate View |
-| 📄 Resume Builder | 🏢 Recruiter Workspace |
-| 🔒 Privacy Controls | 📈 Hiring Insights |
+| 👤 Candidates | 🤖 AI | 🏢 Companies | 🔒 Platform |
+|:-------------:|:----:|:------------:|:-----------:|
+| Living Profile | North | Recruiter Workspace | Privacy |
+| Resume Builder | Semantic Analysis | Rich Profiles | Cloud Native |
+| Career Journey | Prompt Engineering | Better Matching | Modular Architecture |
 
 The platform was designed to evolve continuously, allowing new capabilities to be added without changing its core philosophy.
 
@@ -488,39 +458,14 @@ The platform was designed to evolve continuously, allowing new capabilities to b
 
 The project follows a modular architecture to keep business rules, user experience and AI capabilities independent.
 
-📁 app
-
-→ Frontend
-
-📁 functions
-
-→ Cloud Functions
-
-📁 prompts
-
-→ North prompts
-
-📁 docs
-
-→ Product documentation
-
-📁 assets
-
-→ Visual assets
-
-```text
-rightplace-ai/
-│
-├── app/                # Frontend application
-├── components/         # Shared UI components
-├── hooks/              # Custom React hooks
-├── services/           # Business services
-├── functions/          # Cloud Functions
-├── prompts/            # North prompts
-├── assets/             # Images and static files
-├── docs/               # Product documentation
-└── README.md
-```
+| Directory | Responsibility |
+|:---------:|:------------------------------|
+| 📁 app | User Interface |
+| 📁 components | Shared Components |
+| 📁 functions | Cloud Functions |
+| 📁 prompts | North Prompts |
+| 📁 docs | Product Documentation |
+| 📁 assets | Images and Media |
 
 This organization allows the platform to scale while keeping each module focused on a single responsibility.
 
@@ -598,15 +543,13 @@ Finally, great software is rarely defined by the number of features it offers, b
 
 Additional documentation is available inside the `/docs` directory.
 
-## Documentation
-
-| 📘 | Description |
-|----|-------------|
-| 🧠 NORTH.md | Personality and conversational principles |
-| 📖 PRODUCT_CASE_STUDY.md | Discovery and product decisions |
-| 🏗️ ARCHITECTURE.md | Technical architecture |
+| Document | Purpose |
+|:---------:|:------------------------------|
+| 🧠 NORTH.md | Personality and behavior |
+| 📖 PRODUCT_CASE_STUDY.md | Product journey |
+| 🏗️ ARCHITECTURE.md | Technical decisions |
 | 🚀 ROADMAP.md | Product evolution |
-| 🔒 PRIVACY.md | Privacy by Design |
+| 🔒 PRIVACY.md | Privacy model |
 ---
 
 ## Getting Started
@@ -657,6 +600,6 @@ Career Intelligence begins with conversation.
 
 <br>
 
-Made with ☕, curiosity and Product Thinking.
+Built with ☕, curiosity and Product Thinking.
 
 </p>
