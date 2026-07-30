@@ -321,6 +321,7 @@ Instead of representing a single moment in time, it becomes a dynamic view of a 
 
 ## What Builds a Living Profile?
 
+<table align="center">
 <tr>
 <td align="center">💼 Professional Experience</td>
 <td align="center">🧠 Technical Skills</td>
