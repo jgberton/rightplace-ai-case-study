@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">RightPlace</title>
+  <desc id="desc">Rosa dos ventos tridimensional azul com monograma RP em losango amarelo.</desc>
+
+  <defs>
+    <linearGradient id="northLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42A5FF"/>
+      <stop offset=".48" stop-color="#1675F5"/>
+      <stop offset="1" stop-color="#0C56CD"/>
+    </linearGradient>
+    <linearGradient id="northRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D78F5"/>
+      <stop offset=".58" stop-color="#0959D6"/>
+      <stop offset="1" stop-color="#073E9B"/>
+    </linearGradient>
+
+    <linearGradient id="navyLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#294B7F"/>
+      <stop offset=".52" stop-color="#172F56"/>
+      <stop offset="1" stop-color="#0C1D38"/>
+    </linearGradient>
+    <linearGradient id="navyDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D3A67"/>
+      <stop offset=".55" stop-color="#102847"/>
+      <stop offset="1" stop-color="#08172E"/>
+    </linearGradient>
+
+    <linearGradient id="iceLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9F6FF"/>
+      <stop offset=".48" stop-color="#A9D1FF"/>
+      <stop offset="1" stop-color="#70A9F2"/>
+    </linearGradient>
+    <linearGradient id="iceRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CDE7FF"/>
+      <stop offset=".52" stop-color="#86BAFA"/>
+      <stop offset="1" stop-color="#4E8BDD"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1=".12" y1=".08" x2=".9" y2=".92">
+      <stop offset="0" stop-color="#FFD95A"/>
+      <stop offset=".38" stop-color="#FFC21A"/>
+      <stop offset="1" stop-color="#F29E00"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx=".28" cy=".2" r=".82">
+      <stop offset="0" stop-color="#FFF2A8" stop-opacity=".65"/>
+      <stop offset=".45" stop-color="#FFD84A" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#E78B00" stop-opacity=".22"/>
+    </radialGradient>
+    <linearGradient id="rpInk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#183A69"/>
+      <stop offset="1" stop-color="#071B36"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#041126" flood-opacity=".30"/>
+    </filter>
+    <filter id="diamondShadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#061329" flood-opacity=".40"/>
+    </filter>
+    <filter id="letterShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#001026" flood-opacity=".34"/>
+    </filter>
+
+    <clipPath id="diamondClip">
+      <rect x="407" y="407" width="210" height="210" rx="30" transform="rotate(45 512 512)"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pontas cardeais maiores: cada metade recebe luz própria para reforçar a dobra. -->
+  <g filter="url(#softShadow)">
+    <!-- Norte -->
+    <path d="M512 70 412 466 512 540Z" fill="url(#northLeft)"/>
+    <path d="M512 70 612 466 512 540Z" fill="url(#northRight)"/>
+    <path d="M512 70V540" fill="none" stroke="#73B8FF" stroke-opacity=".18" stroke-width="2"/>
+
+    <!-- Sul -->
+    <path d="M512 954 412 558 512 484Z" fill="url(#navyLight)"/>
+    <path d="M512 954 612 558 512 484Z" fill="url(#navyDark)"/>
+    <path d="M512 484V954" fill="none" stroke="#5C79A4" stroke-opacity=".14" stroke-width="2"/>
+
+    <!-- Oeste -->
+    <path d="M70 512 466 412 540 512Z" fill="url(#navyLight)"/>
+    <path d="M70 512 466 612 540 512Z" fill="url(#navyDark)"/>
+    <path d="M70 512H540" fill="none" stroke="#6886B0" stroke-opacity=".16" stroke-width="2"/>
+
+    <!-- Leste -->
+    <path d="M954 512 558 412 484 512Z" fill="url(#navyLight)"/>
+    <path d="M954 512 558 612 484 512Z" fill="url(#navyDark)"/>
+    <path d="M484 512H954" fill="none" stroke="#6886B0" stroke-opacity=".14" stroke-width="2"/>
+  </g>
+
+  <!-- Pontas diagonais acima das maiores nas interseções. -->
+  <g>
+    <!-- Noroeste -->
+    <path d="M309 309 469 406 512 512Z" fill="url(#iceLeft)"/>
+    <path d="M309 309 406 469 512 512Z" fill="url(#iceRight)"/>
+    <path d="M309 309 512 512" stroke="#FFFFFF" stroke-opacity=".32" stroke-width="2"/>
+
+    <!-- Nordeste -->
+    <path d="M715 309 555 406 512 512Z" fill="url(#iceLeft)"/>
+    <path d="M715 309 618 469 512 512Z" fill="url(#iceRight)"/>
+    <path d="M715 309 512 512" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="2"/>
+
+    <!-- Sudoeste -->
+    <path d="M309 715 406 555 512 512Z" fill="url(#iceLeft)"/>
+    <path d="M309 715 469 618 512 512Z" fill="url(#iceRight)"/>
+    <path d="M309 715 512 512" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="2"/>
+
+    <!-- Sudeste -->
+    <path d="M715 715 618 555 512 512Z" fill="url(#iceLeft)"/>
+    <path d="M715 715 555 618 512 512Z" fill="url(#iceRight)"/>
+    <path d="M715 715 512 512" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+  </g>
+
+  <!-- Centro arredondado com iluminação coerente de cima/esquerda. -->
+  <g filter="url(#diamondShadow)">
+    <rect x="407" y="407" width="210" height="210" rx="30" transform="rotate(45 512 512)" fill="url(#gold)"/>
+    <ellipse cx="472" cy="450" rx="168" ry="105" fill="url(#goldGlow)" clip-path="url(#diamondClip)"/>
+    <path d="M417 417 607 607" stroke="#FFF4B7" stroke-opacity=".18" stroke-width="3" clip-path="url(#diamondClip)"/>
+    <rect x="407" y="407" width="210" height="210" rx="30" transform="rotate(45 512 512)"
+          fill="none" stroke="#E99B00" stroke-width="3"/>
+  </g>
+
+  <!-- Monograma -->
+  <text x="512" y="556" text-anchor="middle"
+        font-family="DejaVu Sans, Arial, Helvetica, sans-serif"
+        font-size="124" font-weight="900" letter-spacing="-6"
+        fill="url(#rpInk)" filter="url(#letterShadow)">RP</text>
+</svg>
