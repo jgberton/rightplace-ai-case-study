@@ -6,7 +6,7 @@ Designing a conversation-first approach to hiring.
 </p>
 
 <p align="center">
-⭐ Product Engineering Case Study • 🧠 Conversational AI • 👤 Living Profiles • ☁️ Cloud Native • 🔒 Privacy by Design
+⭐ Product Engineering • 🧠 Conversational AI • 👤 Living Profiles • ☁️ Cloud Native • 🔒 Privacy by Design
 </p>
 
 <p align="center">
@@ -16,6 +16,41 @@ Designing a conversation-first approach to hiring.
 > [!TIP]
 >
 > This repository documents the complete product journey behind RightPlace AI — from discovery and UX decisions to conversational AI, cloud architecture and engineering principles.
+
+<p align="center">
+
+<a href="#the-future-of-hiring-starts-here">Overview</a> •
+<a href="#documentation">Documentation</a> •
+<a href="#the-problem">Problem</a> •
+<a href="#architecture">Architecture</a> •
+<a href="#technology">Technology</a>
+
+</p>
+
+---
+
+# 📚 Documentation
+
+The architecture is organized into focused documents, each covering a specific aspect of the platform.
+
+| Document | Description |
+|----------|-------------|
+| 🏠 **[Architecture Overview](docs/architecture/README.md)** | Entry point to the complete architecture documentation. |
+| 🤖 **[AI Architecture](docs/architecture/AI.md)** | North, conversational intelligence, prompt strategy and Living Profiles. |
+| 🗄️ **[Database](docs/architecture/DATABASE.md)** | Data model, relationships and persistence philosophy. |
+| ⚙️ **[Backend](docs/architecture/BACKEND.md)** | Cloud Functions, APIs and business services. |
+| 🎨 **[Frontend](docs/architecture/FRONTEND.md)** | Application structure, UX and client architecture. |
+| 🔒 **[Security](docs/architecture/SECURITY.md)** | Authentication, authorization and Privacy by Design. |
+| 🔄 **[Data Flow](docs/architecture/DATA_FLOW.md)** | How information moves through the platform. |
+| ☁️ **[Deployment](docs/architecture/DEPLOYMENT.md)** | Infrastructure, environments and delivery pipeline. |
+
+> [!NOTE]
+>
+> **Looking for the technical architecture?**
+>
+> Start with **[Architecture Overview](docs/architecture/README.md)** to explore the complete system design, AI architecture, data model, backend, frontend, security and deployment strategy.
+
+---
 
 # The Future of Hiring Starts Here
 
