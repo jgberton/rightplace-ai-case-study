@@ -2,6 +2,30 @@
 
 ## Conversational Intelligence for Career Understanding
 
+<p align="center">
+  <img src="../assets/north-logo.png" width="180">
+</p>
+
+<p align="center">
+<i>Understanding people before matching opportunities.</i>
+</p>
+
+<p align="center">
+
+**Discover. • Translate. • Connect.**
+
+</p>
+
+> [!NOTE]
+>
+> North was named after the cardinal direction, not the technology behind it.
+>
+> A compass does not choose the destination.
+>
+> It helps people find their direction.
+>
+> North was designed with the same philosophy.
+
 > **Understanding people before matching opportunities.**
 
 North is the conversational intelligence behind RightPlace AI.
