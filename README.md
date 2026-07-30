@@ -19,6 +19,8 @@ Designing a conversation-first approach to hiring.
 
 ---
 
+# The Future of Hiring Starts Here
+
 <table align="center">
 <tr>
 <td width="45%" valign="top">
@@ -51,40 +53,107 @@ Designing a conversation-first approach to hiring.
 
 ---
 
-## At a Glance
+<h2 align="center">At a Glance</h2>
 
-| | |
-|---|---|
-| 🎯 Purpose | Career Intelligence Platform |
-| 🤖 AI | North Conversational Intelligence |
-| 👤 Core Concept | Living Profiles |
-| ☁️ Architecture | Cloud Native |
-| 🔒 Privacy | Privacy by Design |
-| 🧩 Status | MVP in active development |
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+### 🎯 Purpose
+
+Career Intelligence Platform
+
+</td>
+
+<td align="center" width="33%">
+
+### 🤖 AI
+
+North Conversational Intelligence
+
+</td>
+
+<td align="center" width="33%">
+
+### 👤 Core Concept
+
+Living Profiles
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+### ☁️ Architecture
+
+Cloud Native
+
+</td>
+
+<td align="center">
+
+### 🔒 Privacy
+
+Privacy by Design
+
+</td>
+
+<td align="center">
+
+### 🧩 Status
+
+MVP in Active Development
+
+</td>
+</tr>
+</table>
 
 ## The Problem
 
-> **Modern hiring became incredibly efficient.  
-> Unfortunately, it also became increasingly superficial.**
+> **Modern hiring became incredibly efficient.**
+>
+> **Unfortunately, it also became increasingly superficial.**
 
-Traditional recruitment platforms were designed around documents.
+Traditional recruitment was designed around documents.
 
-Candidates spend hours polishing resumes, while companies rely on increasingly sophisticated systems to process them automatically.
+Today, resumes are optimized for algorithms, not for understanding people.
 
-Although this workflow saves time, it often overlooks what cannot be summarized in one or two pages.
+While companies save time filtering thousands of applications, valuable professional context is often lost.
 
-Things like:
+<h3 align="center">What gets lost?</h3>
 
-| Current Challenges | |
-|--------------------|----------------|
-| 📄 Static resumes | Professionals become PDFs |
-| 🔍 Keyword filters | Human context disappears |
-| 🔁 Repetitive applications | Candidates restart every application |
-| 🤝 Limited understanding | Potential is difficult to identify |
+<table align="center">
+<tr>
+<th align="center">Challenge</th>
+<th align="center">Impact</th>
+</tr>
 
-As hiring becomes more automated, professionals risk being represented by keywords instead of their complete story.
+<tr>
+<td align="center">📄 Static resumes</td>
+<td align="center">Professionals become PDFs instead of people.</td>
+</tr>
 
-RightPlace AI challenges this assumption.
+<tr>
+<td align="center">🔍 Keyword matching</td>
+<td align="center">Human context disappears behind algorithms.</td>
+</tr>
+
+<tr>
+<td align="center">🔁 Repetitive applications</td>
+<td align="center">Candidates restart their story for every opportunity.</td>
+</tr>
+
+<tr>
+<td align="center">🤝 Limited understanding</td>
+<td align="center">Potential, motivation and adaptability are overlooked.</td>
+</tr>
+
+</table>
+
+Rather than understanding professionals, modern hiring often evaluates documents.
+
+RightPlace AI was created to challenge that assumption.
 
 ---
 
@@ -96,86 +165,139 @@ RightPlace AI challenges this assumption.
   <img src="./assets/ats-comparison.png" width="100%">
 </p>
 
-
 <p align="center">
-  <em>
-  Traditional recruitment evaluates resumes.
-  RightPlace AI understands people.
-  </em>
+  <em>Traditional recruitment evaluates resumes. RightPlace AI understands people.</em>
 </p>
 
-RightPlace AI replaces static forms with meaningful conversations.
+Traditional hiring asks candidates to repeatedly adapt their resumes for every opportunity.
 
-Instead of asking candidates to continuously rewrite their professional story for every opportunity, the platform gradually builds a **Living Professional Profile** through conversational AI.
+RightPlace AI takes a different approach.
 
-Rather than extracting isolated keywords, the platform identifies context.
+Instead of collecting documents, it builds understanding.
 
-Rather than ranking resumes, it understands trajectories.
+Instead of static forms, candidates have meaningful conversations with North.
 
-Rather than focusing exclusively on previous positions, it considers potential, adaptability and professional goals.
+Instead of isolated keywords, the platform identifies context, potential and career direction.
 
-This creates a richer foundation for better hiring decisions on both sides of the process.
+<h3 align="center">What changes?</h3>
 
-The result is a platform where Artificial Intelligence supports human decisions instead of replacing them.
+<table align="center">
+<tr>
+<th align="center">Traditional Hiring</th>
+<th align="center">RightPlace AI</th>
+</tr>
 
----
+<tr>
+<td align="center">📄 Static resumes</td>
+<td align="center">👤 Living Profiles</td>
+</tr>
+
+<tr>
+<td align="center">🔍 Keyword matching</td>
+<td align="center">🧠 Context understanding</td>
+</tr>
+
+<tr>
+<td align="center">📑 Previous experience</td>
+<td align="center">🚀 Growth potential</td>
+</tr>
+
+<tr>
+<td align="center">📝 Forms and applications</td>
+<td align="center">💬 Natural conversations</td>
+</tr>
+
+</table>
+
+The result is a hiring experience where Artificial Intelligence supports better human decisions instead of replacing them.
 
 ## Our Design Principles
 
+These principles guide every product and engineering decision behind RightPlace AI.
+
 | Principle | Description |
-|-----------|-------------|
-| 👤 **People First** | Careers evolve. Profiles should evolve too. |
+|:---------:|-------------|
+| 👤 **People First** | Careers evolve. Professional profiles should evolve too. |
 | 💬 **Conversation Before Evaluation** | Understanding always comes before matching. |
-| 🤖 **AI as an Assistant** | AI organizes information. Humans make decisions. |
-| 🔒 **Privacy by Design** | Trust is part of the architecture. |
+| 🤖 **AI as an Assistant** | AI supports people instead of replacing them. |
+| 🔒 **Privacy by Design** | Trust is built into the platform from day one. |
+
+---
+
+## Meet North
 
 <p align="center">
   <img src="./assets/North.png" width="100%">
 </p>
 
-> ### North's Mission
+> [!NOTE]
 >
-> Understand professionals before connecting them with opportunities.
+> **North isn't an AI recruiter.**
+>
+> North isn't an ATS.
+>
+> North isn't an interviewer.
+>
+> North exists for one purpose:
+>
+> **Understand professionals before connecting them with opportunities.**
 
 North is the conversational intelligence behind RightPlace AI.
 
-But North was never designed to replace recruiters.
+Instead of collecting forms and resumes, North builds professional understanding through natural conversations.
 
-Nor to approve or reject candidates.
+Every interaction uncovers experiences that are rarely captured by traditional hiring processes.
 
-Instead, North has a much simpler mission:
+<h3 align="center">North helps uncover</h3>
 
-> **Understand people before connecting them with opportunities.**
+<table align="center">
+<tr>
+<th align="center">What North discovers</th>
+<th align="center">Why it matters</th>
+</tr>
 
-Every conversation is an opportunity to discover experiences that rarely appear on a resume.
+<tr>
+<td align="center">🚀 Career transitions</td>
+<td align="center">Reveal adaptability and resilience.</td>
+</tr>
 
-| Valuable information often lost | Why it matters |
-|:-------------------------------:|:--------------:|
-| 🚀 Career transitions | Reveal adaptability and growth |
-| 💡 Personal projects | Demonstrate initiative |
-| 📚 Self-learning | Shows continuous development |
-| ❤️ Motivation | Explains career decisions |
-| 🌱 Growth potential | Indicates future performance |
+<tr>
+<td align="center">💡 Personal projects</td>
+<td align="center">Demonstrate initiative and curiosity.</td>
+</tr>
 
-Rather than asking candidates to complete another long form, North guides them through a natural conversation, gradually transforming isolated information into meaningful professional context.
+<tr>
+<td align="center">📚 Continuous learning</td>
+<td align="center">Shows long-term growth.</td>
+</tr>
 
-The result isn't another document.
+<tr>
+<td align="center">❤️ Motivation</td>
+<td align="center">Explains career decisions.</td>
+</tr>
 
-It's a richer understanding of who that person is and where they want to go.
+<tr>
+<td align="center">🌱 Growth potential</td>
+<td align="center">Looks beyond previous job titles.</td>
+</tr>
+
+</table>
+
+Rather than producing another resume, North gradually transforms conversations into meaningful professional context.
+
+The result is a Living Profile that evolves throughout a professional's career.
 
 ---
 
 ## Why North Exists
 
-North was intentionally designed as a **career companion**, not an automated evaluator.
+North was designed as a **career companion**, not as an automated evaluator.
 
-Its role is to help professionals reflect on their journey, organize experiences and build a profile that represents more than previous job titles.
+Its purpose is to help professionals organize experiences, identify strengths and build a richer representation of who they are.
 
-Throughout every conversation, North continuously transforms information into structured knowledge without losing the human context behind it.
+Every conversation contributes to a Living Profile that becomes more valuable over time.
 
-This conversational approach makes every interaction valuable—not only for a single application, but for the professional's entire career.
-
----
+Rather than replacing recruiters, North gives both candidates and companies better context for better decisions.
 
 ## Living Profiles
 
@@ -184,37 +306,41 @@ This conversational approach makes every interaction valuable—not only for a s
 </p>
 
 | Traditional Resume | Living Profile |
-|--------------------|----------------|
-| Static | Continuously evolving |
-| One document | Rich professional identity |
-| Updated manually | Updated through conversations |
-| Application focused | Career focused |
+|:------------------:|:--------------:|
+| 📄 Static | ♾️ Continuously evolving |
+| 📝 One document | 👤 Rich professional identity |
+| ✏️ Updated manually | 💬 Updated through conversations |
+| 🎯 Application focused | 🚀 Career focused |
 
 > **Careers evolve. Professional profiles should evolve too.**
 
-Careers don't stand still.
+A Living Profile grows continuously through conversations, experiences and professional development.
 
-Neither should professional profiles.
+Instead of representing a single moment in time, it becomes a dynamic view of a person's career.
 ---
 
-## What Makes a Living Profile Different?
+## What Builds a Living Profile?
 
-Instead of storing only professional history, Living Profiles connect multiple dimensions of a person's career.
+<tr>
+<td align="center">💼 Professional Experience</td>
+<td align="center">🧠 Technical Skills</td>
+<td align="center">🤝 Behavioral Competencies</td>
+</tr>
 
-They combine:
+<tr>
+<td align="center">💡 Personal Projects</td>
+<td align="center">🎯 Career Goals</td>
+<td align="center">📚 Learning Journey</td>
+</tr>
 
-- Professional experience
-- Technical skills
-- Behavioral competencies
-- Personal projects
-- Career goals
-- Learning journey
-- Professional interests
-- Conversation insights
-- Verified evidence
+<tr>
+<td align="center">❤️ Professional Interests</td>
+<td align="center">💬 Conversation Insights</td>
+<td align="center">✅ Verified Evidence</td>
+</tr>
+</table>
 
-Together, these elements create a richer representation of professional potential than a traditional resume alone could ever provide.
-
+Together these dimensions create a richer representation of professional potential than a traditional resume ever could.
 ---
 
 ## Candidate Journey
@@ -225,22 +351,19 @@ Together, these elements create a richer representation of professional potentia
   <img src="./assets/candidate-flow.png" width="100%">
 </p>
 
-The candidate experience was designed to be simple, conversational and continuously evolving.
+The candidate journey is designed to be simple, conversational and continuously evolving.
 
-Instead of creating a new profile for every application, professionals build a single Living Profile that grows throughout their career.
-
-The journey follows a natural progression:
+Rather than creating a new profile for every opportunity, professionals build a single Living Profile that becomes more valuable over time.
 
 | Step | Experience |
-|:---:|:---------------------------|
+|:---:|----------------------------|
 | 👤 | Create an account |
 | 💬 | Meet North |
 | 🧠 | Build your Living Profile |
 | 📈 | Keep it evolving |
 | 🎯 | Apply with confidence |
-Each conversation strengthens future opportunities.
 
-The profile becomes more complete with every interaction.
+Every conversation strengthens future opportunities.
 
 ---
 
@@ -254,11 +377,9 @@ The profile becomes more complete with every interaction.
 
 Companies don't receive longer resumes.
 
-They receive better information.
+They receive richer professional context.
 
-Instead of relying exclusively on keyword matching, recruiters gain access to structured professional profiles enriched by conversational insights.
-
-This allows hiring teams to understand not only what candidates have done, but also:
+Instead of relying exclusively on keyword matching, recruiters review Living Profiles enriched through conversations with North.
 
 | Step | Company Experience |
 |:---:|:---------------------------|
@@ -267,10 +388,10 @@ This allows hiring teams to understand not only what candidates have done, but a
 | 🤖 | North enriches candidates |
 | 📊 | Review Living Profiles |
 | 🤝 | Hire with better context |
+
 The goal isn't to automate hiring.
 
-The goal is to improve the quality of hiring decisions by providing richer professional context.
-
+It's to improve hiring decisions with better professional context.
 ---
 
 ## Privacy by Design
@@ -283,46 +404,62 @@ The goal is to improve the quality of hiring decisions by providing richer profe
 
 Career data is deeply personal.
 
-Professional experiences, ambitions, conversations and achievements deserve the same level of care as any other sensitive information.
+Professional experiences, ambitions and conversations deserve the same level of protection as any other sensitive information.
 
-RightPlace AI was designed around a simple principle:
+RightPlace AI was designed around one fundamental principle.
 
 > [!IMPORTANT]
 >
-> ## Candidates always own their professional story.
+> **Candidates always own their professional story.**
 >
-> Profiles are only shared with explicit user consent.
+> Living Profiles are shared only with explicit user consent.
 
 Every conversation belongs to the candidate.
 
-Every profile is created with transparency.
+Every profile is built transparently.
 
-Every piece of information shared with a company happens intentionally.
+Every interaction with a company is intentional.
 
-Rather than exposing an entire professional history, candidates decide when and how their profile is shared throughout the hiring process.
+Rather than exposing an entire professional history, candidates decide when, how and with whom their profile is shared.
+
+<h3 align="center">Privacy Principles</h3>
+
+<table align="center">
+<tr>
+<th align="center">Principle</th>
+<th align="center">Purpose</th>
+</tr>
+
+<tr>
+<td align="center">👤 User Ownership</td>
+<td align="center">Candidates control their professional identity.</td>
+</tr>
+
+<tr>
+<td align="center">✅ Explicit Consent</td>
+<td align="center">Profiles are shared only with permission.</td>
+</tr>
+
+<tr>
+<td align="center">🔐 Secure Authentication</td>
+<td align="center">Protect access to personal information.</td>
+</tr>
+
+<tr>
+<td align="center">☁️ Cloud-Native Security</td>
+<td align="center">Data protection is built into the platform.</td>
+</tr>
+
+<tr>
+<td align="center">🤖 Transparent AI</td>
+<td align="center">AI assists users without hidden decisions.</td>
+</tr>
+
+</table>
 
 Privacy isn't an afterthought.
 
-It's part of every product decision.
-
----
-
-## Designed for Trust
-
-The platform follows a privacy-first approach throughout the entire user journey.
-
-Core principles include:
-
-- User-controlled professional profiles
-- Explicit consent before profile sharing
-- Secure authentication
-- Cloud-native data protection
-- Transparent AI interactions
-- Privacy by Design architecture
-
-Trust is built long before the first interview begins.
-
----
+It's a design decision that influences every part of the platform.
 
 ## Platform Overview
 
@@ -334,34 +471,42 @@ Trust is built long before the first interview begins.
 
 RightPlace AI connects professionals and companies through a shared understanding instead of isolated documents.
 
-| Platform | Purpose |
-|:---------:|:-----------------------------|
-| 🤖 North | Conversational Intelligence |
-| 👤 Living Profiles | Dynamic identity |
-| 🏢 Recruiter Workspace | Hiring workflow |
-| 🔎 Smart Matching | Better recommendations |
-| 🔒 Privacy Layer | User control |
----
+<h3 align="center">Core Platform Components</h3>
 
-## A Platform Designed to Evolve
+<table align="center">
+<tr>
+<th align="center">Component</th>
+<th align="center">Purpose</th>
+</tr>
 
-RightPlace AI was intentionally designed as a modular platform.
+<tr>
+<td align="center">🤖 North</td>
+<td align="center">Conversational Intelligence</td>
+</tr>
 
-Every major capability can evolve independently while contributing to the same professional ecosystem.
+<tr>
+<td align="center">👤 Living Profiles</td>
+<td align="center">Dynamic Professional Identity</td>
+</tr>
 
-Current platform modules include:
+<tr>
+<td align="center">🏢 Recruiter Workspace</td>
+<td align="center">Hiring Experience</td>
+</tr>
 
-| Module | Purpose |
-|---------|---------|
-| 💬 North | Conversational Intelligence |
-| 👤 Living Profiles | Dynamic professional identity |
-| 🏢 Recruiter Workspace | Hiring experience |
-| 🤝 Matching | Opportunity recommendations |
-| 🔒 Privacy Layer | User control and consent |
+<tr>
+<td align="center">🤝 Smart Matching</td>
+<td align="center">Opportunity Recommendations</td>
+</tr>
 
-Future modules can expand the ecosystem without changing its core philosophy.
+<tr>
+<td align="center">🔒 Privacy Layer</td>
+<td align="center">User Control & Consent</td>
+</tr>
 
----
+</table>
+
+Every component is designed to evolve independently while contributing to the same professional ecosystem.
 
 ## Architecture
 
@@ -371,46 +516,100 @@ Future modules can expand the ecosystem without changing its core philosophy.
   <img src="./assets/architecture .png" width="100%">
 </p>
 
-Behind every conversation is a cloud-native architecture designed around scalability, modularity and continuous evolution.
+RightPlace AI is built on a cloud-native architecture designed for scalability, modularity and continuous evolution.
 
-Instead of concentrating responsibilities in a single application layer, the platform separates concerns across independent services that communicate securely.
+Rather than concentrating responsibilities in a single application, the platform separates them into independent services that communicate securely.
 
-This architecture allows new capabilities to be introduced without affecting the overall user experience.
+<h3 align="center">Architecture Principles</h3>
+
+<table align="center">
+<tr>
+<th align="center">Principle</th>
+<th align="center">Purpose</th>
+</tr>
+
+<tr>
+<td align="center">☁️ Cloud Native</td>
+<td align="center">Scale services independently.</td>
+</tr>
+
+<tr>
+<td align="center">🧩 Modular Design</td>
+<td align="center">Develop components without affecting the ecosystem.</td>
+</tr>
+
+<tr>
+<td align="center">⚡ Serverless</td>
+<td align="center">Optimize infrastructure and operational costs.</td>
+</tr>
+
+<tr>
+<td align="center">🔒 Secure by Default</td>
+<td align="center">Protect data across every interaction.</td>
+</tr>
+
+<tr>
+<td align="center">🚀 Continuous Evolution</td>
+<td align="center">Enable new capabilities without disrupting users.</td>
+</tr>
+
+</table>
 
 As North evolves, the platform evolves with it.
-
 ---
 
 ## Engineering Goals
 
-The architecture was designed around five engineering principles.
+Conversational Intelligence
 
-| Principle | Goal |
-|-----------|------|
-| 🧩 Modular | Independent evolution |
-| ☁️ Cloud Native | Scalability |
-| 🤖 AI First | Conversational Intelligence |
-| 🔒 Secure | Privacy by Design |
-| 🚀 Future Ready | Continuous evolution |
+</td>
 
-## Engineering Principles & Platform
+<td align="center" width="20%">
 
-> **Technology should serve the product—not the other way around.**
+### 🔒 Secure
 
-Rather than selecting technologies first and designing the product afterwards, RightPlace AI was built around product decisions that naturally shaped its technical architecture.
+Privacy by Design
 
-The platform combines modern cloud technologies, conversational AI and modular engineering practices to support continuous evolution.
+</td>
 
-| Layer | Responsibility |
-|:------:|:-------------------------------|
-| 🎨 Experience | Responsive interface |
-| 🤖 Intelligence | North AI |
-| ☁️ Backend | Business rules |
-| 🗄️ Data | Living Profiles |
-| 🔒 Security | Privacy by Design |
-| 🚀 Infrastructure | Cloud Native |
+<td align="center" width="20%">
 
-Technology choices may evolve over time.
+### 🚀 Future Ready
+
+Continuous Evolution
+
+</td>
+</tr>
+</table>
+
+## Engineering Platform
+
+> [!NOTE]
+>
+> RightPlace AI was designed around product decisions first. The technology stack exists to support those decisions—not define them.
+
+Rather than selecting technologies first, RightPlace AI was designed around product decisions that naturally shaped its technical architecture.
+
+The result is a modular platform where every layer has a clear responsibility.
+
+<tr>
+<td align="center">🗄️ Data</td>
+<td align="center">Living Profiles and persistence</td>
+</tr>
+
+<tr>
+<td align="center">🔒 Security</td>
+<td align="center">Authentication and privacy</td>
+</tr>
+
+<tr>
+<td align="center">🚀 Infrastructure</td>
+<td align="center">Cloud-native services</td>
+</tr>
+
+</table>
+
+Technology choices may evolve.
 
 The product principles remain the same.
 
@@ -426,53 +625,41 @@ The product principles remain the same.
 
 RightPlace AI was designed as an evolving platform rather than a finished product.
 
-The current version establishes the foundation for a broader Career Intelligence ecosystem.
+Each milestone expands the Career Intelligence ecosystem while preserving the same core vision.
 
-Future directions include:
+<h3 align="center">Product Evolution</h3>
 
-| Phase | Focus |
-|:------:|:-------------------------------|
-| 🚀 Phase 1 | Core Platform |
-| 🤖 Phase 2 | Smarter North |
-| 👤 Phase 3 | Rich Living Profiles |
-| 📊 Phase 4 | Career Intelligence Ecosystem |
+<table align="center">
+<tr>
+<th align="center">Phase</th>
+<th align="center">Focus</th>
+</tr>
+
+<tr>
+<td align="center">🚀 Phase 1</td>
+<td align="center">Core Platform</td>
+</tr>
+
+<tr>
+<td align="center">🤖 Phase 2</td>
+<td align="center">Smarter North</td>
+</tr>
+
+<tr>
+<td align="center">👤 Phase 3</td>
+<td align="center">Richer Living Profiles</td>
+</tr>
+
+<tr>
+<td align="center">📊 Phase 4</td>
+<td align="center">Career Intelligence Ecosystem</td>
+</tr>
+
+</table>
 
 The long-term vision remains unchanged.
 
-Help people find not only **their next job**, but **the right place to grow.**
-
----
-
-## Key Features
-
-RightPlace AI combines conversational intelligence, cloud-native architecture and product thinking into a single platform.
-
-Current capabilities include:
-
-| 👤 Candidates | 🤖 AI | 🏢 Companies | 🔒 Platform |
-|:-------------:|:----:|:------------:|:-----------:|
-| Living Profile | North | Recruiter Workspace | Privacy |
-| Resume Builder | Semantic Analysis | Rich Profiles | Cloud Native |
-| Career Journey | Prompt Engineering | Better Matching | Modular Architecture |
-
-The platform was designed to evolve continuously, allowing new capabilities to be added without changing its core philosophy.
-
----
-
-## Project Structure
-
-The project follows a modular architecture to keep business rules, user experience and AI capabilities independent.
-
-| Directory | Responsibility |
-|:---------:|:------------------------------|
-| 📁 app | User Interface |
-| 📁 components | Shared Components |
-| 📁 functions | Cloud Functions |
-| 📁 prompts | North Prompts |
-| 📁 docs | Product Documentation |
-| 📁 assets | Images and Media |
-
-This organization allows the platform to scale while keeping each module focused on a single responsibility.
+**Help people find not only their next job, but the right place to grow.**
 
 ---
 
@@ -484,25 +671,121 @@ RightPlace AI was born from a simple observation.
 
 Recruitment platforms have become increasingly efficient at processing resumes, yet they still struggle to understand people.
 
-Throughout the product discovery process, one question guided every decision:
+One question guided every product decision.
 
 > **What if hiring started with understanding instead of filtering?**
 
-That question shaped every aspect of the platform.
+That idea shaped every major capability.
 
-North.
+- 🤖 North
+- 👤 Living Profiles
+- 💬 Conversational AI
+- 🔒 Privacy by Design
+- ☁️ Cloud-Native Architecture
 
-Living Profiles.
+Every feature exists to support the same vision rather than adding isolated functionality.
 
-Conversational AI.
+Rather than building another AI product, the goal became designing a platform capable of representing professionals more completely.
 
-Privacy.
+---
 
-Architecture.
+## Lessons Learned
 
-Each feature exists to support the same vision rather than adding isolated functionality.
+Building RightPlace AI reinforced a few principles that now guide every product decision.
 
-Instead of building "another AI product", the goal became designing an experience capable of representing professionals more completely.
+- 👤 Understanding users creates better products than technology alone.
+- 🤖 AI delivers the most value when it supports human decision-making.
+- 🧭 Product decisions should drive technical decisions.
+- 🚀 Great software is defined by the clarity of the problem it solves—not by the number of features it contains.
+
+---
+
+## Key Features
+
+RightPlace AI combines conversational intelligence, cloud-native architecture and product thinking into a single platform.
+
+<h3 align="center">Current Capabilities</h3>
+
+<table align="center">
+<tr>
+<th align="center">👤 Candidates</th>
+<th align="center">🤖 AI</th>
+<th align="center">🏢 Companies</th>
+<th align="center">🔒 Platform</th>
+</tr>
+
+<tr>
+<td align="center">Living Profiles</td>
+<td align="center">North</td>
+<td align="center">Recruiter Workspace</td>
+<td align="center">Privacy by Design</td>
+</tr>
+
+<tr>
+<td align="center">Resume Builder</td>
+<td align="center">Semantic Analysis</td>
+<td align="center">Rich Professional Profiles</td>
+<td align="center">Cloud Native</td>
+</tr>
+
+<tr>
+<td align="center">Career Journey</td>
+<td align="center">Prompt Engineering</td>
+<td align="center">Context-Based Matching</td>
+<td align="center">Modular Architecture</td>
+</tr>
+
+</table>
+
+Every capability was designed to evolve independently while contributing to the same product vision.
+
+---
+
+## Project Structure
+
+The project follows a modular architecture that keeps product logic, user experience and AI capabilities independent.
+
+<h3 align="center">Repository Structure</h3>
+
+<table align="center">
+<tr>
+<th align="center">Directory</th>
+<th align="center">Responsibility</th>
+</tr>
+
+<tr>
+<td align="center">📁 app</td>
+<td align="center">Application Interface</td>
+</tr>
+
+<tr>
+<td align="center">📁 components</td>
+<td align="center">Reusable UI Components</td>
+</tr>
+
+<tr>
+<td align="center">📁 functions</td>
+<td align="center">Cloud Functions & Business Logic</td>
+</tr>
+
+<tr>
+<td align="center">📁 prompts</td>
+<td align="center">North AI Prompt Engineering</td>
+</tr>
+
+<tr>
+<td align="center">📁 docs</td>
+<td align="center">Product & Technical Documentation</td>
+</tr>
+
+<tr>
+<td align="center">📁 assets</td>
+<td align="center">Images, Diagrams & Media</td>
+</tr>
+
+</table>
+
+Each module has a single responsibility, making the platform easier to maintain, scale and evolve.
 
 ---
 
@@ -512,49 +795,70 @@ RightPlace AI is more than a software application.
 
 It is also an exploration of modern Product Engineering.
 
-Topics explored throughout the project include:
+<h3 align="center">Topics Explored</h3>
 
-- Product Discovery
-- UX Design
-- Conversational AI
-- Prompt Engineering
-- Cloud Architecture
-- Human-Centered Design
-- Privacy by Design
-- Product Strategy
-- Scalable System Design
+<table align="center">
+<tr>
+<td align="center">🧭 Product Discovery</td>
+<td align="center">🎨 UX Design</td>
+<td align="center">🤖 Conversational AI</td>
+</tr>
 
-The repository documents not only the implementation, but also the thinking behind each major decision.
+<tr>
+<td align="center">💬 Prompt Engineering</td>
+<td align="center">☁️ Cloud Architecture</td>
+<td align="center">👤 Human-Centered Design</td>
+</tr>
 
----
+<tr>
+<td align="center">🔒 Privacy by Design</td>
+<td align="center">📈 Product Strategy</td>
+<td align="center">🧩 Scalable System Design</td>
+</tr>
 
-## Lessons Learned
+</table>
 
-Building RightPlace AI reinforced several important ideas.
-
-Technology alone rarely creates better products.
-
-Understanding users does.
-
-Artificial Intelligence becomes significantly more valuable when it complements human decision-making instead of replacing it.
-
-Product decisions should guide technical decisions—not the opposite.
-
-Finally, great software is rarely defined by the number of features it offers, but by the clarity of the problem it solves.
+The repository documents not only the implementation, but also the reasoning behind every major product decision.
 
 ---
 
 ## Documentation
 
-Additional documentation is available inside the `/docs` directory.
+Additional documentation is available in the **/docs** directory.
 
-| Document | Purpose |
-|:---------:|:------------------------------|
-| 🧠 NORTH.md | Personality and behavior |
-| 📖 PRODUCT_CASE_STUDY.md | Product journey |
-| 🏗️ ARCHITECTURE.md | Technical decisions |
-| 🚀 ROADMAP.md | Product evolution |
-| 🔒 PRIVACY.md | Privacy model |
+<table align="center">
+<tr>
+<th align="center">Document</th>
+<th align="center">Purpose</th>
+</tr>
+
+<tr>
+<td align="center">🧠 NORTH.md</td>
+<td align="center">North personality and conversational behavior</td>
+</tr>
+
+<tr>
+<td align="center">📖 PRODUCT_CASE_STUDY.md</td>
+<td align="center">Product discovery and design journey</td>
+</tr>
+
+<tr>
+<td align="center">🏗️ ARCHITECTURE.md</td>
+<td align="center">Architecture and technical decisions</td>
+</tr>
+
+<tr>
+<td align="center">🚀 ROADMAP.md</td>
+<td align="center">Future product evolution</td>
+</tr>
+
+<tr>
+<td align="center">🔒 PRIVACY.md</td>
+<td align="center">Privacy model and user ownership</td>
+</tr>
+
+</table>
+
 ---
 
 ## Getting Started
@@ -585,15 +889,13 @@ Configure your Firebase project and environment variables before running the app
 
 Contributions, discussions and product feedback are always welcome.
 
-If you'd like to share ideas, report issues or collaborate, feel free to open an Issue or start a Discussion.
+If you'd like to share ideas, report issues or collaborate, feel free to open an **Issue** or start a **Discussion**.
 
 ---
 
 ## License
 
 This project is licensed under the MIT License.
-
----
 
 ---
 
