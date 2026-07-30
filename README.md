@@ -561,6 +561,31 @@ As North evolves, the platform evolves with it.
 
 ## Engineering Goals
 
+The architecture was designed around five engineering principles.
+
+<table align="center">
+<tr>
+
+<td align="center" width="20%">
+
+### 🧩 Modular
+
+Independent Evolution
+
+</td>
+
+<td align="center" width="20%">
+
+### ☁️ Cloud Native
+
+Scalability
+
+</td>
+
+<td align="center" width="20%">
+
+### 🤖 AI First
+
 Conversational Intelligence
 
 </td>
@@ -580,6 +605,7 @@ Privacy by Design
 Continuous Evolution
 
 </td>
+
 </tr>
 </table>
 
@@ -593,19 +619,42 @@ Rather than selecting technologies first, RightPlace AI was designed around prod
 
 The result is a modular platform where every layer has a clear responsibility.
 
+<h3 align="center">Platform Layers</h3>
+
+<table align="center">
+<tr>
+<th align="center">Layer</th>
+<th align="center">Responsibility</th>
+</tr>
+
+<tr>
+<td align="center">🎨 Experience</td>
+<td align="center">Responsive User Interface</td>
+</tr>
+
+<tr>
+<td align="center">🤖 Intelligence</td>
+<td align="center">North Conversational AI</td>
+</tr>
+
+<tr>
+<td align="center">☁️ Backend</td>
+<td align="center">Business Logic & APIs</td>
+</tr>
+
 <tr>
 <td align="center">🗄️ Data</td>
-<td align="center">Living Profiles and persistence</td>
+<td align="center">Living Profiles & Persistence</td>
 </tr>
 
 <tr>
 <td align="center">🔒 Security</td>
-<td align="center">Authentication and privacy</td>
+<td align="center">Authentication & Privacy</td>
 </tr>
 
 <tr>
 <td align="center">🚀 Infrastructure</td>
-<td align="center">Cloud-native services</td>
+<td align="center">Cloud-Native Services</td>
 </tr>
 
 </table>
