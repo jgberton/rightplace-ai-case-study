@@ -4,51 +4,72 @@
 >
 > Its architecture separates user experience, business orchestration, AI reasoning and persistent knowledge into independent but connected layers.
 
-# Overview
+```mermaid
+flowchart TD
 
-RightPlace AI follows a layered architecture where each component has a single responsibility.
+    U([Users])
 
-Rather than allowing infrastructure decisions to define the system, the architecture is organized around product domains.
+    FE[Frontend]
+    BE[Backend Services]
+    SEC[Security]
 
-```text
-                     Users
-                        │
-                        ▼
-                 Frontend Layer
-                        │
-                        ▼
-                 Backend Services
-        ┌───────────────┼────────────────┐
-        │               │                │
-        ▼               ▼                ▼
-   AI Services     Living Profile     Storage
-        │               │                │
-        └───────────────┼────────────────┘
-                        ▼
-              Structured Responses
+    LP[(Living Profile)]
+    AI[North AI]
+
+    APP[Applications]
+    DOC[Generated Documents]
+    MAT[Matching]
+
+    U --> FE
+    FE --> BE
+
+    BE --> LP
+    BE --> AI
+
+    SEC -. Protects .-> BE
+    SEC -. Protects .-> LP
+    SEC -. Protects .-> AI
+
+    LP --> APP
+    LP --> DOC
+    LP --> MAT
+
+    classDef core fill:#2563eb,color:#ffffff,stroke:#1d4ed8,stroke-width:2px;
+    classDef service fill:#0f766e,color:#ffffff,stroke:#115e59;
+    classDef security fill:#b91c1c,color:#ffffff,stroke:#991b1b;
+
+    class LP core;
+    class FE,BE,AI service;
+    class SEC security;
 ```
 
-Each layer evolves independently while preserving clear architectural boundaries.
+---
+
+# Overview
+
+RightPlace AI follows a layered architecture where every component has a well-defined responsibility.
+
+Rather than allowing infrastructure decisions to shape the platform, the architecture is organized around product domains. Each layer can evolve independently while preserving clear boundaries, reducing coupling and improving long-term maintainability.
+
+---
 
 # Architecture Principles
 
-The platform is built around a small number of fundamental principles.
+The platform is built around a small set of architectural principles.
 
 - Business logic belongs to the backend.
 - Professional understanding is independent from AI models.
-- The Living Profile is the source of truth.
+- The Living Profile is the single source of truth.
 - Documents are generated artifacts, not stored knowledge.
-- Security is enforced at every layer.
+- Security is enforced across every layer.
 - Components communicate through well-defined boundaries.
-- Infrastructure supports the architecture, not the opposite.
+- Infrastructure supports the architecture—not the other way around.
 
-These principles guide every technical decision across the project.
+These principles guide every technical decision across the platform.
 
-# Documentation
+---
 
-This directory contains the architectural documentation for the platform.
-
-## 📚 Architecture Documents
+# 📚 Architecture Documents
 
 <table>
 <tr>
@@ -115,7 +136,7 @@ Identity, authorization and platform trust boundaries.
 
 ### 🔄 Data Flow Architecture
 
-How information moves across the entire platform.
+Information lifecycle and communication between platform components.
 
 <a href="./DATA_FLOW.md">Read documentation →</a>
 
@@ -139,7 +160,7 @@ Production topology, infrastructure and deployment strategy.
 
 ### 🏗️ Architecture Overview
 
-This document provides the entry point to the platform architecture.
+The entry point to the platform architecture.
 
 <strong>You are here.</strong>
 
@@ -148,29 +169,37 @@ This document provides the entry point to the platform architecture.
 </tr>
 </table>
 
+---
+
 # System Architecture
 
-Each document describes one architectural perspective.
+Each document describes one architectural perspective while remaining connected to the others.
 
-```text
-                 Architecture
+```mermaid
+flowchart LR
 
-                       │
+    FE[Frontend]
+    BE[Backend]
+    DB[(Database)]
+    AI[North AI]
+    ST[(Storage)]
+    SEC[Security]
 
-       ┌───────────────┼───────────────┐
-       │               │               │
-       ▼               ▼               ▼
-      AI          Backend         Frontend
-       │               │               │
-       └───────┬───────┴───────┬───────┘
-               ▼               ▼
-          Data Flow        Security
-               │
-               ▼
-           Deployment
+    FE --> BE
+
+    BE --> DB
+    BE --> AI
+    BE --> ST
+
+    SEC -. Protects .-> FE
+    SEC -. Protects .-> BE
+    SEC -. Protects .-> DB
+    SEC -. Protects .-> AI
 ```
 
-Together they describe how information moves across the platform while maintaining clear responsibilities.
+Together, these documents describe how information moves across the platform while preserving clear ownership and responsibilities.
+
+---
 
 # Layer Responsibilities
 
@@ -185,33 +214,35 @@ Together they describe how information moves across the platform while maintaini
 
 No layer assumes responsibilities that belong to another.
 
+---
+
 # Information Lifecycle
 
-Professional understanding evolves continuously.
+Professional understanding evolves continuously as new evidence is collected and validated.
 
-```text
-Conversation
-      │
-      ▼
-Evidence
-      │
-      ▼
-Validation
-      │
-      ▼
-Living Profile
-      │
-      ▼
-Applications
-      │
-      ▼
-Generated Documents
-      │
-      ▼
-Hiring Decisions
+```mermaid
+flowchart LR
+
+    C[Conversation]
+    E[Evidence]
+    V[Validation]
+    LP[(Living Profile)]
+    APP[Applications]
+    DOC[Generated Documents]
+    HD[Hiring Decisions]
+
+    C --> E
+    E --> V
+    V --> LP
+    LP --> APP
+    LP --> DOC
+    APP --> HD
+    DOC --> HD
 ```
 
 Unlike traditional recruitment platforms, documents are the result of accumulated professional understanding rather than the starting point.
+
+---
 
 # Technology
 
@@ -228,6 +259,8 @@ The current implementation uses a modern cloud-native stack.
 
 These technologies may evolve over time without changing the architectural principles described in this documentation.
 
+---
+
 # Design Philosophy
 
 RightPlace AI is not built around resumes.
@@ -239,6 +272,8 @@ The platform captures professional evidence, transforms it into structured under
 Technology enables this process.
 
 Architecture protects it.
+
+---
 
 # Core Idea
 
