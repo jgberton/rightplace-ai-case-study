@@ -17,8 +17,6 @@ Designing a conversation-first approach to hiring.
 >
 > This repository documents the complete product journey behind RightPlace AI — from discovery and UX decisions to conversational AI, cloud architecture and engineering principles.
 
----
-
 # The Future of Hiring Starts Here
 
 <table align="center">
@@ -50,8 +48,6 @@ Designing a conversation-first approach to hiring.
 </td>
 </tr>
 </table>
-
----
 
 <h2 align="center">At a Glance</h2>
 
@@ -155,8 +151,6 @@ Rather than understanding professionals, modern hiring often evaluates documents
 
 RightPlace AI was created to challenge that assumption.
 
----
-
 ## A Better Approach
 
 > **Understanding should come before matching.**
@@ -222,8 +216,6 @@ These principles guide every product and engineering decision behind RightPlace 
 | 🤖 **AI as an Assistant** | AI supports people instead of replacing them. |
 | 🔒 **Privacy by Design** | Trust is built into the platform from day one. |
 
----
-
 ## Meet North
 
 <p align="center">
@@ -287,8 +279,6 @@ Rather than producing another resume, North gradually transforms conversations i
 
 The result is a Living Profile that evolves throughout a professional's career.
 
----
-
 ## Why North Exists
 
 North was designed as a **career companion**, not as an automated evaluator.
@@ -317,7 +307,6 @@ Rather than replacing recruiters, North gives both candidates and companies bett
 A Living Profile grows continuously through conversations, experiences and professional development.
 
 Instead of representing a single moment in time, it becomes a dynamic view of a person's career.
----
 
 ## What Builds a Living Profile?
 
@@ -342,7 +331,6 @@ Instead of representing a single moment in time, it becomes a dynamic view of a 
 </table>
 
 Together these dimensions create a richer representation of professional potential than a traditional resume ever could.
----
 
 ## Candidate Journey
 
@@ -365,8 +353,6 @@ Rather than creating a new profile for every opportunity, professionals build a 
 | 🎯 | Apply with confidence |
 
 Every conversation strengthens future opportunities.
-
----
 
 ## Company Journey
 
@@ -393,7 +379,6 @@ Instead of relying exclusively on keyword matching, recruiters review Living Pro
 The goal isn't to automate hiring.
 
 It's to improve hiring decisions with better professional context.
----
 
 ## Privacy by Design
 
@@ -557,7 +542,6 @@ Rather than concentrating responsibilities in a single application, the platform
 </table>
 
 As North evolves, the platform evolves with it.
----
 
 ## Engineering Goals
 
@@ -663,8 +647,6 @@ Technology choices may evolve.
 
 The product principles remain the same.
 
----
-
 ## Roadmap
 
 > **This is only the beginning.**
@@ -711,8 +693,6 @@ The long-term vision remains unchanged.
 
 **Help people find not only their next job, but the right place to grow.**
 
----
-
 ## Behind the Product
 
 > **Every product starts with a problem worth solving.**
@@ -737,8 +717,6 @@ Every feature exists to support the same vision rather than adding isolated func
 
 Rather than building another AI product, the goal became designing a platform capable of representing professionals more completely.
 
----
-
 ## Lessons Learned
 
 Building RightPlace AI reinforced a few principles that now guide every product decision.
@@ -747,8 +725,6 @@ Building RightPlace AI reinforced a few principles that now guide every product 
 - 🤖 AI delivers the most value when it supports human decision-making.
 - 🧭 Product decisions should drive technical decisions.
 - 🚀 Great software is defined by the clarity of the problem it solves—not by the number of features it contains.
-
----
 
 ## Key Features
 
@@ -788,8 +764,6 @@ RightPlace AI combines conversational intelligence, cloud-native architecture an
 </table>
 
 Every capability was designed to evolve independently while contributing to the same product vision.
-
----
 
 ## Project Structure
 
@@ -837,8 +811,6 @@ The project follows a modular architecture that keeps product logic, user experi
 
 Each module has a single responsibility, making the platform easier to maintain, scale and evolve.
 
----
-
 ## What This Project Explores
 
 RightPlace AI is more than a software application.
@@ -869,8 +841,6 @@ It is also an exploration of modern Product Engineering.
 </table>
 
 The repository documents not only the implementation, but also the reasoning behind every major product decision.
-
----
 
 ## Documentation
 
@@ -909,8 +879,6 @@ Additional documentation is available in the **/docs** directory.
 
 </table>
 
----
-
 ## Getting Started
 
 Clone the repository.
@@ -941,13 +909,9 @@ Contributions, discussions and product feedback are always welcome.
 
 If you'd like to share ideas, report issues or collaborate, feel free to open an **Issue** or start a **Discussion**.
 
----
-
 ## License
 
 This project is licensed under the MIT License.
-
----
 
 <p align="center">
 
