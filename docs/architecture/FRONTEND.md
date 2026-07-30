@@ -4,8 +4,6 @@
 >
 > Rather than containing business logic, it focuses on interaction, navigation and communication with backend services.
 
----
-
 # Overview
 
 The RightPlace AI frontend provides the interface between users and the platform.
@@ -37,8 +35,6 @@ The frontend focuses on interaction.
           Platform Infrastructure
 ```
 
----
-
 # Design Principles
 
 The frontend follows a small set of architectural principles.
@@ -49,8 +45,6 @@ The frontend follows a small set of architectural principles.
 - Components should be reusable.
 - Navigation should reflect user workflows.
 - Every interaction should have a clear purpose.
-
----
 
 # User Experience
 
@@ -63,8 +57,6 @@ The platform supports two primary user journeys.
 
 Although both experiences share infrastructure, each one provides workflows optimized for its audience.
 
----
-
 # Application Structure
 
 The application is organized around product features rather than individual pages.
@@ -72,8 +64,6 @@ The application is organized around product features rather than individual page
 Each feature encapsulates its own interface, state and communication responsibilities.
 
 This approach allows the platform to evolve without tightly coupling unrelated areas.
-
----
 
 # Routing
 
@@ -91,8 +81,6 @@ Examples include:
 
 Each route represents a product capability rather than a data entity.
 
----
-
 # State Management
 
 The frontend maintains only the state required to provide a responsive user experience.
@@ -102,8 +90,6 @@ Long-term knowledge is never considered a frontend responsibility.
 Whenever authoritative information is required, it is retrieved from backend services.
 
 This keeps client-side state lightweight and predictable.
-
----
 
 # Backend Communication
 
@@ -118,8 +104,6 @@ Responsibilities include:
 
 Business decisions are intentionally delegated to backend services.
 
----
-
 # AI Integration
 
 North is presented as a natural conversational interface.
@@ -129,8 +113,6 @@ From the frontend perspective, AI behaves like another platform capability rathe
 Conversation history, structured responses and generated artifacts are displayed without exposing implementation details.
 
 For more information, see [AI Architecture](./AI.md).
-
----
 
 # Component Strategy
 
@@ -145,23 +127,17 @@ Components prioritize:
 
 This approach reduces duplication while improving maintainability.
 
----
-
 # Responsive Design
 
 The interface is designed to work across desktop and mobile environments.
 
 Layouts adapt to available space while preserving navigation consistency and minimizing cognitive load.
 
----
-
 # Error Handling
 
 Errors are presented as user guidance rather than technical failures.
 
 Whenever possible, the interface provides actionable feedback that allows users to recover without leaving their current workflow.
-
----
 
 # Security Boundaries
 
@@ -170,8 +146,6 @@ The frontend never becomes the source of truth for sensitive operations.
 Authentication, authorization and business validation remain backend responsibilities.
 
 The client only presents information that has already been validated by the platform.
-
----
 
 # Current Architecture
 
@@ -183,8 +157,6 @@ The current implementation is built using:
 - Tailwind CSS
 
 The application communicates with Firebase services and backend APIs while keeping business logic outside the user interface.
-
----
 
 # Future Evolution
 
@@ -199,8 +171,6 @@ Potential additions include:
 - collaborative hiring experiences.
 
 The architecture is designed to support incremental evolution rather than large-scale rewrites.
-
----
 
 # Core Idea
 
