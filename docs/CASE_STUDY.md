@@ -157,7 +157,7 @@ RightPlace AI combines modern web technologies with conversational AI.
 
 Current stack includes:
 
-- React
+- Next
 - TypeScript
 - Firebase
 - Cloud Functions
