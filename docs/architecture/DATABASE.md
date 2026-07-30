@@ -12,26 +12,20 @@ The database is organized around independent domains that evolve together while 
 
 This architecture allows candidates, organizations and AI-generated artifacts to grow independently without tightly coupling their data models.
 
-                    RightPlace Database
+  ```text
+                         RightPlace Database
 
-                          Users
-                            │
-        ┌───────────────────┼────────────────────┐
-        │                   │                    │
-        ▼                   ▼                    ▼
- Living Profile      Applications      Generated Documents
-                             │
-                             ▼
-                           Jobs
-                             │
-                             ▼
-                     Organizations
-                             │
-                             ▼
-                      Shared Applications
+         Users ─────────────── Applications ─────────────── Jobs
+           │                         │                        │
+           │                         │                        │
+           ▼                         ▼                        ▼
+    Living Profile          Application Context       Organizations
+           │                                                  │
+           ▼                                                  ▼
+ Generated Documents                              Shared Applications
 
-                 Notifications (Independent)
-
+                     Notifications are independent
+```
 # Design Principles
 
 The database architecture follows a few fundamental principles.
