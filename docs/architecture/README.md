@@ -48,15 +48,105 @@ These principles guide every technical decision across the project.
 
 This directory contains the architectural documentation for the platform.
 
-| Document | Description |
-|----------|-------------|
-| [AI.md](./AI.md) | Conversational intelligence, reasoning pipeline and Living Profile architecture. |
-| [DATABASE.md](./DATABASE.md) | Persistent data model and domain relationships. |
-| [BACKEND.md](./BACKEND.md) | Business orchestration, service boundaries and backend responsibilities. |
-| [FRONTEND.md](./FRONTEND.md) | User experience architecture and application structure. |
-| [SECURITY.md](./SECURITY.md) | Identity, authorization and platform protection strategy. |
-| [DATA_FLOW.md](./DATA_FLOW.md) | Information lifecycle and communication between platform components. |
-| [DEPLOYMENT.md](./DEPLOYMENT.md) | Production topology and deployment architecture. |
+## 📚 Architecture Documents
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🤖 AI Architecture
+
+Conversational intelligence, reasoning pipeline and the Living Profile.
+
+<a href="./AI.md">Read documentation →</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🗄️ Database Architecture
+
+Persistent data model, domain ownership and relationships.
+
+<a href="./DATABASE.md">Read documentation →</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### ⚙️ Backend Architecture
+
+Business orchestration, service boundaries and AI coordination.
+
+<a href="./BACKEND.md">Read documentation →</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🖥️ Frontend Architecture
+
+Application structure, user experience and interaction model.
+
+<a href="./FRONTEND.md">Read documentation →</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🔐 Security Architecture
+
+Identity, authorization and platform trust boundaries.
+
+<a href="./SECURITY.md">Read documentation →</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔄 Data Flow Architecture
+
+How information moves across the entire platform.
+
+<a href="./DATA_FLOW.md">Read documentation →</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🚀 Deployment Architecture
+
+Production topology, infrastructure and deployment strategy.
+
+<a href="./DEPLOYMENT.md">Read documentation →</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🏗️ Architecture Overview
+
+This document provides the entry point to the platform architecture.
+
+<strong>You are here.</strong>
+
+</td>
+
+</tr>
+</table>
 
 # System Architecture
 
