@@ -1,6 +1,4 @@
-# North
-
-## Conversational Intelligence for Career Understanding
+<h1 align="center">North</h1>
 
 <p align="center">
   <img src="../assets/rightplace-logo.svg" width="180">
