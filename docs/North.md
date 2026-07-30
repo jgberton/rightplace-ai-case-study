@@ -3,7 +3,7 @@
 ## Conversational Intelligence for Career Understanding
 
 <p align="center">
-  <img src="../assets/north-logo.png" width="180">
+  <img src="../assets/rightplace-logo.svg" width="180">
 </p>
 
 <p align="center">
