@@ -326,7 +326,7 @@ But by adding context to it.
 
 # Discover • Translate • Connect
 
-<table>
+<table align="center">
 <tr>
 
 <td align="center" width="33%">
